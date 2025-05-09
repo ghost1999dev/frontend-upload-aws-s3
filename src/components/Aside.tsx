@@ -12,7 +12,7 @@ export const Aside = ({saveImageElement}) => {
   const saveElements =async (event)=>{
     event.preventDefault()
     if(!file){
-      alert("Please select a file please")
+      alert("Please select a file please or select other file")
       return;
     }
     const formData = new FormData()
