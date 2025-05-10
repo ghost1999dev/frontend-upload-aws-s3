@@ -38,7 +38,7 @@ export const Aside = ({saveImageElement}) => {
   return (
     <aside className="lateral">
       <div className="search">
-        <h3 className="title">Search your favorite</h3>
+        <h3 className="title">Search your favorite image</h3>
         <form action="">
           <input type="text" />
         </form>
