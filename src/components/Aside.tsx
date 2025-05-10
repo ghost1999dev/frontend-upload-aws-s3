@@ -19,7 +19,7 @@ export const Aside = ({saveImageElement}) => {
     formData.append("name", title)
     formData.append("file", file)
     try {
-      const response = await fetch("http://localhost:5050/file/upload",{
+      const response = await fetch("https://aws-file-upload-spring.onrender.com/file/upload",{
         method: "POST",
         body: formData
       })
