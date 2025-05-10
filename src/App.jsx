@@ -12,7 +12,7 @@ function App() {
   
   const getImages = async ()=>{
     try {
-      const response = await fetch("http://localhost:5050/file/get-all")
+      const response = await fetch("https://aws-file-upload-spring.onrender.com/file/get-all")
       if (response.ok) {
         const data = await response.json()
         setImages(data)
