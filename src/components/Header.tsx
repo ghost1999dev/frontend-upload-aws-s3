@@ -6,7 +6,7 @@ export const Header = () => {
       <div className="logo">
         <div className="play"></div>
       </div>
-      <h1>Upload your image</h1>
+      <h1>Upload your images</h1>
     </header>
   );
 };
